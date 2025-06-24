@@ -36,6 +36,7 @@ ul li{
 
 .second{
     display:flex;
+    justify-content: space-around;
 }
 
 .subtext{
@@ -49,6 +50,9 @@ ul li{
     width:430px;
     text-align:center;
     padding-top:80px;
+    margin-right: 100px;
+    
+    
 }
 
 .subtext-heading{
@@ -61,7 +65,8 @@ ul li{
 
 .SignUp{
     color: white;
-    background-color:#3882F6
+    background-color:#3882F6;
+    border-radius: 10px;
     
 }
 
@@ -143,4 +148,15 @@ ul li{
 }
 .footer-header{
     font-weight: 900;
+}
+
+.SignUp-footer {
+  font-family: 'Roboto', Arial;
+  border-radius: 10px;
+  background-color: #3882F6;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  cursor: pointer;
+
 }
